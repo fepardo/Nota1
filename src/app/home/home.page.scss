@@ -28,7 +28,7 @@
 
 .titulo {
   font-family: 'Pacifico', cursive;
-  font-size: 1,5em; 
+  font-size: 150%; 
   color: #35b3fd; 
 }
 
@@ -40,14 +40,19 @@
 // }
 
 
-.homeIMG{
+.homeIMG {
   opacity: 0.2;
+  width: 100%; /* Ajusta el tamaño según tus necesidades */
+  height: auto; /* Esto permite que la altura se ajuste automáticamente según el ancho */
+  position: absolute;
+  bottom: 0;
 }
-.centrado {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin-top: 10px; 
+.contenedor {
+  position: relative;
+}
+
+
+
+.mi-clase-h3 {
+  margin-top: 10px; /* Ajusta el valor según tus necesidades */
 }
